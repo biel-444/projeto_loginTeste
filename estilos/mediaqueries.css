@@ -1,15 +1,38 @@
+@media screen and (max-width: 768px){
+    section#login {
+        width: 50vw;
+    }
+    section#login > div#imagem{
+        float: top;
+        width: 100%;
+        height: 30%;
+        background-position: center center;
+    }
+    section#login > div#form{
+        text-align: justify;
+        width: 100%;
+        margin: auto;
+        height: 70%;
+        text-align: center;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width:992px) {
     section#login {
         width: 90vw;
     }
     section#login > div#imagem{
         float: left;
-        width: 30% ;
+        width: 50% ;
         height: 100%;
+        background-position:center left;
     }
     section#login > div#form{
         float: right;
-        width: 70%;
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
     }
 }
 @media screen and (min-width:992px) {
@@ -20,9 +43,14 @@
         float: left;
         width: 50%;
         height: 100%;
+        background-size: cover;
+        background-position: center;
     }
     section#login > div#form{
         float: right;
         width: 50%;
+        text-align: center;
+        margin-top: 50px;
+        padding: 50px 50px;
     }
 }
